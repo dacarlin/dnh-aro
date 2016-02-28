@@ -1,0 +1,48 @@
+# Verbose Mode: 1 
+# version: SPARTAN STUDENT 5.0.0int11b  5.0.0int11b x86/Darwin
+# rootKeys: 'SCONFANAL' 'MMFF' '' '' ''
+# Task    : SCONFANAL 'Equilibrium Conformer'
+# Method  :  MMFF 'Molecular Mechanics'
+# Basis   : 
+# PreStep :   (2)
+# PreStep :   (1)
+# new Keys: 'SCONFANAL MMFF PARTIAL '
+# old Keys: ''
+#         : 'Base Keywords Differ'
+# new Prop: ''
+# old Prop: ''
+# hessian : '' (0)
+# wavefn  : '' (0)
+# charge/m:  (0 1) (0 1)
+# IRS     :  -1
+# product#:  0x1000000 (1,1,0)
+# HF ver. :  4 [QC]
+# Graphic :  1
+# graphinf:  ''
+# graphopt:  ''
+# Atoms   :  23 (12,11,0,0)  152.2
+# Avail RAM: 8192.00 Mb
+# Method  :  MMFF (1)
+# ..Local?:  0 0
+# ..Dense?:  0 0
+# Localize Button : 'NO'
+# Density  Button : '?'
+# UV  Button : 'NOT POSSIBLE'
+# NMR Button : 'NOT POSSIBLE'
+# RAMAN      : 'NOT POSSIBLE'
+# QSAR2      : 'NOT POSSIBLE'
+RunInitializeJob
+  SCONFANAL MMFF PARTIAL  
+EndStep
+CopyArchiveToPreviousArchive
+RunMechanics
+  SCONFANAL MMFF PARTIAL 
+EndStep
+RunProperty
+ SCONFANAL MMFF PARTIAL  
+EndStep
+CopyArchiveToPreviousArchive
+RunPruneArchive
+ SCONFANAL MMFF PARTIAL  
+EndStep
+# Molecule Mode: 'Pending' [3]
