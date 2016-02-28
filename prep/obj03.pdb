@@ -1,0 +1,26 @@
+HETATM    1  C1                 -1.751  -1.813   0.156  0.00  0.00           C  
+HETATM    2  C2                 -1.001  -0.650   0.351  0.00  0.00           C  
+HETATM    3  O30                -3.546  -1.671   0.528  0.00  0.00           O  
+HETATM    4  H3                 -1.600  -2.624   0.866  0.00  0.00           H  
+HETATM    5  H4                 -1.884  -2.148  -0.870  0.00  0.00           H  
+HETATM    6  H5                 -0.844  -0.314   1.376  0.00  0.00           H  
+HETATM    7  H6                 -1.107   0.151  -0.381  0.00  0.00           H  
+HETATM    8  H31                -4.257  -0.747  -0.241  0.00  0.00           H  
+HETATM    9  H32                -3.932  -2.543   0.381  0.00  0.00           H  
+CONECT    1    2
+CONECT    1    2
+CONECT    1    2
+CONECT    1    2
+CONECT    1    4    5
+CONECT    2    1
+CONECT    2    1
+CONECT    2    1
+CONECT    2    1
+CONECT    2    6    7
+CONECT    3    9
+CONECT    4    1
+CONECT    5    1
+CONECT    6    2
+CONECT    7    2
+CONECT    9    3
+END

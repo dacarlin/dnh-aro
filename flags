@@ -1,0 +1,17 @@
+-bump_tolerance 0.4 
+-ignore_unrecognized_res 
+-match:geometric_constraint_file hydratase.enzdes.cst
+-match:lig_name LG1
+-extra_res_fa LG1.params 
+-use_input_sc 
+-ex1 
+-ex2 
+-ex3
+-ex1aro 
+-ex2aro 
+-output_format PDB 
+-consolidate_matches 1 
+-match_grouper SameSequenceGrouper 
+-output_matches_per_group 1 
+-mute protocols.idealize
+-out:path:all out 

@@ -1,0 +1,59 @@
+# Verbose Mode: 1 
+# version: SPARTAN STUDENT 5.0.0int11b  5.0.0int11b x86/Darwin
+# rootKeys: 'OPT' 'HF' '3-21G(*)' '' ''
+# Task    :   OPT 'Equilibrium Geometry'
+# Method  :    HF 'Hartree-Fock'
+# Basis   : 3-21G(*)
+# PreStep :   (2)
+# PreStep :   (1)
+# new Keys: 'OPT HF 3-21G(*) '
+# old Keys: ''
+#         : 'Base Keywords Differ'
+# new Prop: ''
+# old Prop: ''
+# hessian : '' (0)
+# wavefn  : '' (0)
+# charge/m:  (0 1) (0 1)
+# IRS     :  -1
+# product#:  0x1000000 (1,1,0)
+# HF ver. :  4 [QC]
+# Graphic :  1
+# graphinf:  ''
+# graphopt:  ''
+# Atoms   :  22 (12,10,0,0)  136.2
+# Avail RAM: 8192.00 Mb
+# Method  :  HF (3)
+# ..Local?:  0 0
+# ..Dense?:  0 0
+# Localize Button : 'NO'
+# Density  Button : '?'
+# UV  Button : 'POSSIBLE'
+# NMR Button : 'POSSIBLE'
+# ECP Button : 'NOT POSSIBLE'
+# RAMAN      : 'POSSIBLE'
+# QSAR2      : 'POSSIBLE'
+RunInitializeJob
+  OPT HF 3-21G(*) 
+EndStep
+CopyArchiveToPreviousArchive
+RunMechanics
+   MMFF94 EXTEND #NO_PROPARC NO_NEG_HESS POSTSOLVENT=NONE FREQ SECOND PRINTLEV=0
+EndStep
+MarkArchiveIncomplete (B)
+CopyArchiveToPreviousArchive
+RunQChem
+  OPT HF 3-21G(*) 
+EndStep
+MergePreviousArchiveIntoArchive
+CopyArchiveToPreviousArchive
+RunSemiempirical
+  AM1 ONLYPROPIN
+EndStep
+RunProperty
+ OPT HF 3-21G(*) 
+EndStep
+CopyArchiveToPreviousArchive
+RunPruneArchive
+ OPT HF 3-21G(*) 
+EndStep
+# Molecule Mode: 'Pending' [3]
