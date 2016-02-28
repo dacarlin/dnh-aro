@@ -1,5 +1,4 @@
 -use_input_sc 1 
--nstruct 10 
 -out:path:all out
 -parser:protocol protocol
 -extra_res_fa ../LG1.params
