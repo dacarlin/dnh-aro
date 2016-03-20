@@ -14,4 +14,4 @@
 -match_grouper SameSequenceGrouper 
 -output_matches_per_group 1 
 -mute protocols.idealize
--out:path:all out 
+
