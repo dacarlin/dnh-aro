@@ -1,4 +1,4 @@
--nstruct 10 
+-nstruct 1 
 -use_input_sc 1 
 -out:path:all out
 -parser:protocol protocol

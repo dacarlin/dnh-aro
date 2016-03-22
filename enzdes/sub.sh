@@ -1,7 +1,6 @@
 #!/bin/sh
-#SBATCH --output=log.txt
-#SBATCH --job-name=enzdes 
-#SBATCH -c 1
+#SBATCH --output=logs/slurm-%j.out 
+#SBATCH --job-name=dnh_enzdes
 
 S=$( sed -n "$SLURM_ARRAY_TASK_ID p" list )
 /share/work/rosetta/source/bin/rosetta_scripts.linuxgccrelease @flags $S 
