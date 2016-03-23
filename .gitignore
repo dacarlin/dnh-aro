@@ -1,7 +1,8 @@
 .ipynb_checkpoints/
-enzdes/out/*pdb
 filtered.tar
 list
 log.txt
 logs/
-out/*pdb
+match/*pdb
+match/out/*pdb
+enzdes/out/*pdb
