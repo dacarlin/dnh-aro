@@ -2,8 +2,8 @@
 -use_input_sc 1 
 -out:path:all out
 -parser:protocol protocol
--extra_res_fa ../LG1.params
--enzdes::cstfile ../hydratase.enzdes.cst 
+-extra_res_fa ../match/LG1.params
+-enzdes::cstfile ../match/hydratase.enzdes.cst 
 -ignore_unrecognized_res 1 
 
 -packing::ex1
