@@ -1,0 +1,1 @@
+load 1qv0.pdb, 1qv0.pdb; load UM_177_Y169D22_1_1qv0_11_hydratase_1_0000_0001.pdb, UM_177_Y169D22_1_1qv0_11_hydratase_1_0000_0001.pdb; sele muts, resi 21+133+164+168+179+183 and obj UM_177_Y169D22_1_1qv0_11_hydratase_1_0000_0001.pdb; util.cbaw muts; util.cnc; orient muts; show sticks, organic; hide (hydro); remove solvent;

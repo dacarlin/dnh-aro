@@ -1,0 +1,68 @@
+# UM_177_Y169D22_1_1qv0
+
+mutations: PHE21ASP+ILE133GLY+HIS164TRP+TRP168TYR+TYR179ASN+VAL183THR
+
+## Conservative: PHE22ASP+ILE134ALA+HIS165TRP+TRP169TYR (4 mutations) 
+
+PHE21ASP - cat residue 
+ILE133GLY - fine as Ala 
+HIS164TRP - packs pocket of bigger native substrate, keeping  
+TRP168TYR - cat residue 
+TYR179ASN - iffy, but I'm going to keep the native residue here 
+VAL183THR - native is good here 
+
+## Aggressive: PHE22ASP+VAL112ILE+SER132TRP+ILE134ALA+SER135VAL+HIS165TRP+TRP169TYR (7 mutations) 
+
+Perfect correspondence to crystal structure 
+
+>sp|Q27709|1-195
+MSSKYAVKLKTDFDNPRWIKRHKHMFDFLDINGNGKITLDEIVSKASDDICAKLEATPEQ
+TKRHQVCVEAFFRGCGMEYGKEIAFPQFLDGWKQLATSELKKWARNEPTLIREWGDAVFD
+IFDKDGSGTITLDEWKAYGKISGISPSQEDCEATFRHCDLDNSGDLDVDEMTRQHLGFWY
+TLDPEADGLYGNGVP
+
+Unnamed: 1: 1808
+total_score: -570.84
+fa_rep: 87.13
+hbond_sc: -17.12
+all_cst: 0.23
+tot_pstat_pm: 0.68
+tot_nlpstat_pm: 0.68
+tot_burunsat_pm: 34.0
+tot_hbond_pm: 186.0
+tot_NLconts_pm: 39.0
+tot_nlsurfaceE_pm: 4.9
+tot_total_charge: -13.0
+tot_total_pos_charges: 22.0
+tot_total_neg_charges: 35.0
+tot_seq_recovery: 0.98
+SR_1: 169.0
+SR_1_total_score: -3.24
+SR_1_fa_rep: 0.73
+SR_1_hbond_sc: 0.0
+SR_1_all_cst: 0.05
+SR_1_hbond_pm: 3.0
+SR_1_burunsat_pm: 0.0
+SR_1_pstat_pm: 0.81
+SR_1_nlpstat_pm: 0.5
+SR_2: 22.0
+SR_2_total_score: -1.02
+SR_2_fa_rep: 0.39
+SR_2_hbond_sc: 0.0
+SR_2_all_cst: 0.06
+SR_2_hbond_pm: 1.0
+SR_2_burunsat_pm: 0.0
+SR_2_pstat_pm: 0.87
+SR_2_nlpstat_pm: 0.78
+SR_3: 186.0
+SR_3_total_score: -2.93
+SR_3_fa_rep: 0.57
+SR_3_hbond_sc: -0.07
+SR_3_all_cst: 0.12
+SR_3_interf_E_1_2: -1.86
+SR_3_dsasa_1_2: 0.91
+SR_3_hbond_pm: 1.0
+SR_3_burunsat_pm: 0.0
+description: UM_177_Y169D22_1_1qv0_11_hydratase_1_0000_0001
+scaffold: 1qv0
+match.1: UM_177_Y169D22_1_1qv0

@@ -1,0 +1,1 @@
+load 1r5l.pdb, 1r5l.pdb; load UM_21_Y93D143_1_1r5l_11_hydratase_1_0002_0001.pdb, UM_21_Y93D143_1_1r5l_11_hydratase_1_0002_0001.pdb; sele muts, resi 70+75+94+97+107+108+139+142 and obj UM_21_Y93D143_1_1r5l_11_hydratase_1_0002_0001.pdb; util.cbaw muts; util.cnc; orient muts; show sticks, organic; hide (hydro); remove solvent;

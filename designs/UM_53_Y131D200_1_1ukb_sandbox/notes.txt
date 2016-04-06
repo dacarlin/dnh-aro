@@ -1,0 +1,67 @@
+# UM_53_Y131D200_1_1ukb
+
+http://www.uniprot.org/uniprot/P96965
+
+>tr|P96965|1-282
+MANLEIGKSILAAGVLTNYHDVGEGQPVILIHGSGPGVSAYANWRLTIPALSKFYRVIAP
+DMVGFGFTDRPENYNYSKDSWVDHIIGIMDALEIEKAHIVGNSFGGGLAIATALRYSERV
+DRMVLMGAAGTRFDVTEGLNAVWGYTPSIENMRNLLDIFAYDRSLVTDELARLRYEASIQ
+PGFQESFSSMFPEPRQRWIDALASSDEDIKTLPNETLIIHGREDQVVPLSSSLRLGELID
+RAQLHVFGRCGHWTQIEQTDRFNRLVVEFFNEANTPKLVGRP
+
+mutations: ALA101GLY+PHE131TYR+LEU137GLY+LEU200ASP
+
+## Conservative: PHE131TYR+LEU137ALA+LEU200ASP
+
+ALA101GLY - revert 
+PHE131TYR - cat 
+LEU137GLY - OK as alanine  
+LEU200ASP - cat 
+
+## Aggressive: GLY31ILE+MET124VAL+GLY125SER+PHE131TYR+VAL133ILE+LEU137ALA+ALA199HIS+LEU200ASP+ALA201SER
+
+Unnamed: 1: 3063
+total_score: -856.06
+fa_rep: 124.67
+hbond_sc: -21.56
+all_cst: 0.08
+tot_pstat_pm: 0.64
+tot_nlpstat_pm: 0.64
+tot_burunsat_pm: 72.0
+tot_hbond_pm: 245.0
+tot_NLconts_pm: 69.0
+tot_nlsurfaceE_pm: 0.56
+tot_total_charge: -13.0
+tot_total_pos_charges: 24.0
+tot_total_neg_charges: 37.0
+tot_seq_recovery: 0.99
+SR_1: 131.0
+SR_1_total_score: -3.28
+SR_1_fa_rep: 0.55
+SR_1_hbond_sc: 0.0
+SR_1_all_cst: 0.02
+SR_1_hbond_pm: 1.0
+SR_1_burunsat_pm: 1.0
+SR_1_pstat_pm: 0.6
+SR_1_nlpstat_pm: 0.77
+SR_2: 200.0
+SR_2_total_score: -1.53
+SR_2_fa_rep: 0.26
+SR_2_hbond_sc: 0.0
+SR_2_all_cst: 0.02
+SR_2_hbond_pm: 1.0
+SR_2_burunsat_pm: 2.0
+SR_2_pstat_pm: 0.75
+SR_2_nlpstat_pm: 0.85
+SR_3: 272.0
+SR_3_total_score: -5.11
+SR_3_fa_rep: 0.63
+SR_3_hbond_sc: 0.0
+SR_3_all_cst: 0.04
+SR_3_interf_E_1_2: -6.21
+SR_3_dsasa_1_2: 0.99
+SR_3_hbond_pm: 0.0
+SR_3_burunsat_pm: 1.0
+description: UM_53_Y131D200_1_1ukb_11_hydratase_1_0004_0001
+scaffold: 1ukb
+match.1: UM_53_Y131D200_1_1ukb

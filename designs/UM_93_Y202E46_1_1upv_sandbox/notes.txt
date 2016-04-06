@@ -1,0 +1,68 @@
+# UM_93_Y202E46_1_1upv
+
+mutations: ALA45GLU+LEU83ALA+PHE110ALA+ILE123ALA+LEU201TYR
+
+## Conservative: ALA46GLU+LEU84ALA+PHE111ALA+ILE124ALA+LEU202TYR
+
+ALA45GLU - cat residue 
+LEU83ALA - keep otherwise clash with substrate 
+PHE110ALA - keep else clash with substrate 
+ILE123ALA - keep 
+LEU201TYR - cat residue 
+
+## Aggressive: PHE42TRP+LEU45PHE+ALA46GLU+MET83PHE+THR87ILE+PHE100ALA+PHE111ALA+LEU116TRP+ILE124ALA+SER128GLN+LEU202TYR+HIS206TYR+LEU220GLN (13 mutations) 
+
+>sp|P55055|208-460
+SQGSGEGEGVQLTAAQELMIQQLVAAQLQCNKRSFSDQPKVTPWPLGADPQSRDARQQRF
+AHFTELAIISVQEIVDFAKQVPGFLQLGREDQIALLKASTIEIMLLETARRYNHETECIT
+FLKDFTYSKDDFHRAGLQVEFINPIFEFSRAMRRLGLDDAEYALLIAINIFSADRPNVQE
+PGRVEALQQPYVEALLSYTRIKRPQDQLRFPRMLMKLVSLRTLSSVHSEQVFALRLQDKK
+LPPLLSEIWDVHE
+
+http://www.uniprot.org/blast/?about=P55055[208-460]
+
+Unnamed: 1: 5370
+total_score: -212.62
+fa_rep: 172.29
+hbond_sc: -11.44
+all_cst: 0.14
+tot_pstat_pm: 0.52
+tot_nlpstat_pm: 0.52
+tot_burunsat_pm: 45.0
+tot_hbond_pm: 209.0
+tot_NLconts_pm: 26.0
+tot_nlsurfaceE_pm: 26.82
+tot_total_charge: -5.0
+tot_total_pos_charges: 26.0
+tot_total_neg_charges: 31.0
+tot_seq_recovery: 0.99
+SR_1: 202.0
+SR_1_total_score: -2.47
+SR_1_fa_rep: 0.44
+SR_1_hbond_sc: 0.0
+SR_1_all_cst: 0.04
+SR_1_hbond_pm: 2.0
+SR_1_burunsat_pm: 0.0
+SR_1_pstat_pm: 0.74
+SR_1_nlpstat_pm: 0.8
+SR_2: 46.0
+SR_2_total_score: -1.22
+SR_2_fa_rep: 0.42
+SR_2_hbond_sc: 0.0
+SR_2_all_cst: 0.03
+SR_2_hbond_pm: 2.0
+SR_2_burunsat_pm: 0.0
+SR_2_pstat_pm: 0.62
+SR_2_nlpstat_pm: 0.41
+SR_3: 233.0
+SR_3_total_score: -4.5
+SR_3_fa_rep: 0.52
+SR_3_hbond_sc: 0.0
+SR_3_all_cst: 0.07
+SR_3_interf_E_1_2: -5.0
+SR_3_dsasa_1_2: 0.96
+SR_3_hbond_pm: 0.0
+SR_3_burunsat_pm: 0.0
+description: UM_93_Y202E46_1_1upv_11_hydratase_1_0003_0001
+scaffold: 1upv
+match.1: UM_93_Y202E46_1_1upv

@@ -1,0 +1,1 @@
+load 1upv.pdb, 1upv.pdb; load UM_93_Y202E46_1_1upv_11_hydratase_1_0003_0001.pdb, UM_93_Y202E46_1_1upv_11_hydratase_1_0003_0001.pdb; sele muts, resi 45+83+110+123+201 and obj UM_93_Y202E46_1_1upv_11_hydratase_1_0003_0001.pdb; util.cbaw muts; util.cnc; orient muts; show sticks, organic; hide (hydro); remove solvent;

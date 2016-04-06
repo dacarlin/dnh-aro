@@ -1,0 +1,75 @@
+# UM_21_Y93D143_1_1r5l
+
+>sp|P49638|21-278
+SPLLQPGLAALRRRAREAGVPLAPLPLTDSFLLRFLRARDFDLDLAWRLLKNYYKWRAEC
+PEISADLHPRSIIGLLKAGYHGVLRSRDPTGSKVLIYRIAHWDPKVFTAYDVFRVSLITS
+ELIVQEVETQRNGIKAIFDLEGWQFSHAFQITPSVAKKIAAVLTDSFPLKVRGIHLINEP
+VIFHAVFSMIKPFLTEKIKERIHMHGNNYKQSLLQHFPDILPLEYGGEEFSMEDICQEWT
+NFIMKSEDYLSSISESIQ
+
+mutations: LEU70ALA+TYR75SER+ILE94ALA+TRP97GLY+VAL107GLY+PHE108MET+GLN139LYS+HIS142ASP
+
+NB! The protein structure has +1 numbering to muation string 
+
+## Conservative: LEU71ALA+TYR76VAL+TRP98ALA+VAL108GLY+HIS143ASP (5 mutations) 
+
+LEU70ALA - keep, otherwise clash w substrate 
+TYR75SER - valine is better here   
+ILE94ALA - had to wiggle away bad initial ile score, but reverted 
+TRP97GLY - alanine is OK here 
+VAL107GLY - pretty much has to be glycine, alanine points directly into substrate, can't wiggle it out  
+PHE108MET - easy revert (lumen) 
+GLN139LYS - easy revert (surface)  
+HIS142ASP - catalytic residue 
+
+## Aggressive: LEU71VAL+TYR76VAL+TRP98ALA+VAL108GLY+SER112PHE+PHE134TRP+HIS143ASP+GLN146ASP (8 mutations) 
+
+Agressively packing the pocket, introduced a twin aspartic acid catalytic residue, explict pi-pi interactions with catalytic Tyrosine 
+
+http://www.uniprot.org/blast/?about=P49638[21-278]
+
+Unnamed: 1: 3395
+total_score: -415.76
+fa_rep: 172.85
+hbond_sc: -24.47
+all_cst: 0.13
+tot_pstat_pm: 0.6
+tot_nlpstat_pm: 0.59
+tot_burunsat_pm: 58.0
+tot_hbond_pm: 228.0
+tot_NLconts_pm: 43.0
+tot_nlsurfaceE_pm: 17.42
+tot_total_charge: 1.0
+tot_total_pos_charges: 32.0
+tot_total_neg_charges: 31.0
+tot_seq_recovery: 0.97
+SR_1: 93.0
+SR_1_total_score: -1.6
+SR_1_fa_rep: 0.41
+SR_1_hbond_sc: -0.26
+SR_1_all_cst: 0.04
+SR_1_hbond_pm: 3.0
+SR_1_burunsat_pm: 0.0
+SR_1_pstat_pm: 0.62
+SR_1_nlpstat_pm: 0.63
+SR_2: 143.0
+SR_2_total_score: -1.63
+SR_2_fa_rep: 0.7
+SR_2_hbond_sc: 0.0
+SR_2_all_cst: 0.03
+SR_2_hbond_pm: 2.0
+SR_2_burunsat_pm: 2.0
+SR_2_pstat_pm: 0.55
+SR_2_nlpstat_pm: 0.68
+SR_3: 252.0
+SR_3_total_score: -3.09
+SR_3_fa_rep: 0.99
+SR_3_hbond_sc: -0.26
+SR_3_all_cst: 0.06
+SR_3_interf_E_1_2: -4.17
+SR_3_dsasa_1_2: 0.97
+SR_3_hbond_pm: 1.0
+SR_3_burunsat_pm: 0.0
+description: UM_21_Y93D143_1_1r5l_11_hydratase_1_0002_0001
+scaffold: 1r5l
+match.1: UM_21_Y93D143_1_1r5l
