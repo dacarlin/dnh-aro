@@ -1,0 +1,56 @@
+########################################
+# Program: needle
+# Rundate: Tue 12 Apr 2016 02:27:37
+# Commandline: needle
+#    [-asequence] 1upv.fa
+#    [-bsequence] fasta/1upv_A.fasta
+#    -outfile 1upv_A.needle
+# Align_format: srspair
+# Report_file: 1upv_A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 1upv
+# 2: 1upv_A
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 253
+# Identity:     219/253 (86.6%)
+# Similarity:   221/253 (87.4%)
+# Gaps:          21/253 ( 8.3%)
+# Score: 1081.0
+# 
+#
+#=======================================
+
+1upv               1 SQGSGEGEGVQLTAAQELMIQQLVAAQLQCNKRSFSDQPKVTPWPLGADP     50
+                               |||||||||||||||||||           ||||||||||
+1upv_A             1 ----------QLTAAQELMIQQLVAAQLQ-----------VTPWPLGADP     29
+
+1upv              51 QSRDARQQRFAHFTELAIISVQEIVDFAKQVPGFLQLGREDQIALLKAST    100
+                     ||||||||||||:||..|||||||||||||||||||||||||||||||||
+1upv_A            30 QSRDARQQRFAHWTEFEIISVQEIVDFAKQVPGFLQLGREDQIALLKAST     79
+
+1upv             101 IEIMLLETARRYNHETECITFLKDFTYSKDDFHRAGLQVEFINPIFEFSR    150
+                     |||.|||.||||||||||||.||||||||||.||||.|||||||.|||.|
+1upv_A            80 IEIFLLEIARRYNHETECITALKDFTYSKDDAHRAGWQVEFINPAFEFQR    129
+
+1upv             151 AMRRLGLDDAEYALLIAINIFSADRPNVQEPGRVEALQQPYVEALLSYTR    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1upv_A           130 AMRRLGLDDAEYALLIAINIFSADRPNVQEPGRVEALQQPYVEALLSYTR    179
+
+1upv             201 IKRPQDQLRFPRMLMKLVSLRTLSSVHSEQVFALRLQDKKLPPLLSEIWD    250
+                     ||||||||||||||||||||||.|||:|||||||||||||.|||||||||
+1upv_A           180 IKRPQDQLRFPRMLMKLVSLRTYSSVYSEQVFALRLQDKKQPPLLSEIWD    229
+
+1upv             251 VHE    253
+                     |||
+1upv_A           230 VHE    232
+
+
+#---------------------------------------
+#---------------------------------------

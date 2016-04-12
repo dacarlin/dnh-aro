@@ -1,0 +1,51 @@
+########################################
+# Program: needle
+# Rundate: Tue 12 Apr 2016 01:07:08
+# Commandline: needle
+#    [-asequence] fasta/1fcy_A.fasta
+#    [-bsequence] 1fcy.fa
+# Align_format: srspair
+# Report_file: 1fcy_a.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 1fcy_A
+# 2: 1fcy
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 236
+# Identity:     225/236 (95.3%)
+# Similarity:   228/236 (96.6%)
+# Gaps:           1/236 ( 0.4%)
+# Score: 1147.0
+# 
+#
+#=======================================
+
+1fcy_A             1 ASPQLEELITKVSKAHQETFPSLCQLGKYTTNSSADHRVQLDLGLWDKES     50
+                      |||||||||||||||||||||||||||||||||||||||||||||||.|
+1fcy               1 -SPQLEELITKVSKAHQETFPSLCQLGKYTTNSSADHRVQLDLGLWDKFS     49
+
+1fcy_A            51 ELATKIIIKIVEFAKRLPGFTGLSIADQITLLKAAALDIFMLRLCTRYTP    100
+                     |||||.|||||||||||||||||||||||||||||.|||.|||:||||||
+1fcy              50 ELATKCIIKIVEFAKRLPGFTGLSIADQITLLKAACLDILMLRICTRYTP     99
+
+1fcy_A           101 EQDTMTYSDGLTLNRTQMHNAAFGPLTDLVFAFAGQLLPLEMDDTETGLL    150
+                     ||||||:||||||||||||||.||||||||||||||||||||||||||||
+1fcy             100 EQDTMTFSDGLTLNRTQMHNAGFGPLTDLVFAFAGQLLPLEMDDTETGLL    149
+
+1fcy_A           151 SAICLICGDRMDLEEPEKVDKLQEPLLEALRLYARRRRPSQPYMFPRMLM    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1fcy             150 SAICLICGDRMDLEEPEKVDKLQEPLLEALRLYARRRRPSQPYMFPRMLM    199
+
+1fcy_A           201 KITDLRGISTKFAERYITLKMEIPGPMPPLIREVLE    236
+                     |||||||||||.|||.|||||||||||||||||:||
+1fcy             200 KITDLRGISTKGAERAITLKMEIPGPMPPLIREMLE    235
+
+
+#---------------------------------------
+#---------------------------------------

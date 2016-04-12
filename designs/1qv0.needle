@@ -1,0 +1,47 @@
+########################################
+# Program: needle
+# Rundate: Tue 12 Apr 2016 01:13:22
+# Commandline: needle
+#    [-asequence] 1qv0.fa
+#    [-bsequence] fasta/1qv0_C_revised.fasta
+# Align_format: srspair
+# Report_file: 1qv0.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 1qv0
+# 2: 1qv0_C_revised
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 195
+# Identity:     179/195 (91.8%)
+# Similarity:   181/195 (92.8%)
+# Gaps:          10/195 ( 5.1%)
+# Score: 966.5
+# 
+#
+#=======================================
+
+1qv0               1 MSSKYAVKLKTDFDNPRWIKRHKHMFDFLDINGNGKITLDEIVSKASDDI     50
+                           ||||||||||||||||||.||.||||||||||||||||||||||
+1qv0_C_revise      1 ------VKLKTDFDNPRWIKRHKHAFDDLDINGNGKITLDEIVSKASDDI     44
+
+1qv0              51 CAKLEATPEQTKRHQVCVEAFFRGCGMEYGKEIAFPQFLDGWKQLATSEL    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1qv0_C_revise     45 CAKLEATPEQTKRHQVCVEAFFRGCGMEYGKEIAFPQFLDGWKQLATSEL     94
+
+1qv0             101 KKWARNEPTLIREWGDAVFDIFDKDGSGTITLDEWKAYGKISGISPSQED    150
+                     |||||||||||||||||||||||    ||||||||||||||||.||||||
+1qv0_C_revise     95 KKWARNEPTLIREWGDAVFDIFD----GTITLDEWKAYGKISGASPSQED    140
+
+1qv0             151 CEATFRHCDLDNSGDLDVDEMTRQHLGFWYTLDPEADGLYGNGVP    195
+                     ||||||||||||:|||||||||||.|||:||||||||||||||||
+1qv0_C_revise    141 CEATFRHCDLDNAGDLDVDEMTRQWLGFYYTLDPEADGLYGNGVP    185
+
+
+#---------------------------------------
+#---------------------------------------

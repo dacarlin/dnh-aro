@@ -1,0 +1,56 @@
+########################################
+# Program: needle
+# Rundate: Tue 12 Apr 2016 02:12:15
+# Commandline: needle
+#    [-asequence] 1r5l.fa
+#    [-bsequence] fasta/1r5l_C.fasta
+#    -outfile 1r5l_C.needle
+# Align_format: srspair
+# Report_file: 1r5l_C.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 1r5l
+# 2: 1r5l_C
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 258
+# Identity:     246/258 (95.3%)
+# Similarity:   246/258 (95.3%)
+# Gaps:           7/258 ( 2.7%)
+# Score: 1269.0
+# 
+#
+#=======================================
+
+1r5l               1 SPLLQPGLAALRRRAREAGVPLAPLPLTDSFLLRFLRARDFDLDLAWRLL     50
+                         ||||||||||||||||||||||||||||||||||||||||||||||
+1r5l_C             1 ----QPGLAALRRRAREAGVPLAPLPLTDSFLLRFLRARDFDLDLAWRLL     46
+
+1r5l              51 KNYYKWRAECPEISADLHPRSIIGLLKAGYHGVLRSRDPTGSKVLIYRIA    100
+                     ||||||||||||||||||||||||.||||.||||||||||||||||||||
+1r5l_C            47 KNYYKWRAECPEISADLHPRSIIGALKAGVHGVLRSRDPTGSKVLIYRIA     96
+
+1r5l             101 HWDPKVFTAYDVFRVSLITSELIVQEVETQRNGIKAIFDLEGWQFSHAFQ    150
+                     |.|||||||||.||||||||||||||||||||||||||||||||||.|||
+1r5l_C            97 HADPKVFTAYDGFRVSLITSELIVQEVETQRNGIKAIFDLEGWQFSDAFQ    146
+
+1r5l             151 ITPSVAKKIAAVLTDSFPLKVRGIHLINEPVIFHAVFSMIKPFLTEKIKE    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1r5l_C           147 ITPSVAKKIAAVLTDSFPLKVRGIHLINEPVIFHAVFSMIKPFLTEKIKE    196
+
+1r5l             201 RIHMHGNNYKQSLLQHFPDILPLEYGGEEFSMEDICQEWTNFIMKSEDYL    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+1r5l_C           197 RIHMHGNNYKQSLLQHFPDILPLEYGGEEFSMEDICQEWTNFIMKSEDYL    246
+
+1r5l             251 SSISESIQ    258
+                     |||||   
+1r5l_C           247 SSISE---    251
+
+
+#---------------------------------------
+#---------------------------------------

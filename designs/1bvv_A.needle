@@ -1,0 +1,48 @@
+########################################
+# Program: needle
+# Rundate: Tue 12 Apr 2016 02:25:11
+# Commandline: needle
+#    [-asequence] 1bvv.fa
+#    [-bsequence] fasta/1bvv_A_revised.fasta
+#    -outfile 1bvv_A.needle
+# Align_format: srspair
+# Report_file: 1bvv_A.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 1bvv
+# 2: 1bvv_A_revised
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 185
+# Identity:     178/185 (96.2%)
+# Similarity:   179/185 (96.8%)
+# Gaps:           0/185 ( 0.0%)
+# Score: 995.0
+# 
+#
+#=======================================
+
+1bvv               1 ASTDYWQNWTDGGGIVNAVNGSGGNYSVNWSNTGNFVVGKGWTTGSPFRT     50
+                     ||||||:|||||||||||||||||||||||||||.|.|||||||||||||
+1bvv_A_revise      1 ASTDYWENWTDGGGIVNAVNGSGGNYSVNWSNTGFFAVGKGWTTGSPFRT     50
+
+1bvv              51 INYNAGVWAPNGNGYLTLYGWTRSPLIEYYVVDSWGTYRPTGTYKGTVKS    100
+                     ||||||||||||||||||.||||||||.||||||||||||||||||||||
+1bvv_A_revise     51 INYNAGVWAPNGNGYLTLAGWTRSPLIIYYVVDSWGTYRPTGTYKGTVKS    100
+
+1bvv             101 DGGTYDIYTTTRYNAPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHV    150
+                     ||||||||||||||.|||||||||||||||||||||||||||||||||||
+1bvv_A_revise    101 DGGTYDIYTTTRYNYPSIDGDRTTFTQYWSVRQSKRPTGSNATITFTNHV    150
+
+1bvv             151 NAWKSHGMNLGSNWAYQVMATEGYQSSGSSNVTVW    185
+                     |||||||||||||||||||||.|||||||||||||
+1bvv_A_revise    151 NAWKSHGMNLGSNWAYQVMATIGYQSSGSSNVTVW    185
+
+
+#---------------------------------------
+#---------------------------------------
