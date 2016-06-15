@@ -1,0 +1,6 @@
+version: 1
+{
+	"sidechain_locked": "306||"
+	"backbone_locked": "306||"
+	"can_design": "1-305||"
+}

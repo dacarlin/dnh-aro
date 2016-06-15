@@ -1,4 +1,0 @@
-For these Sanger reads:
-
-0 is the background plate that had 5 colonies 
-1 is a DNH-aro design 

@@ -1,0 +1,81 @@
+# LAST version 581
+#
+# a=7 b=1 A=7 B=1 e=21 d=13 x=20 y=9 z=20 D=1e+06 E=4.98306e+07
+# R=10 u=0 s=2 T=0 m=10 l=1 n=10 k=1 i=8192 w=1000 t=0.910239 g=1 j=3 Q=0
+# dna_seqs
+# Reference sequences=13 normal letters=10034
+# lambda=1.09602 K=0.335388
+#
+#    A  C  G  T
+# A  1 -1 -1 -1
+# C -1  1 -1 -1
+# G -1 -1  1 -1
+# T -1 -1 -1  1
+#
+# Coordinates are 0-based.  For - strand matches, coordinates
+# in the reverse complement of the 2nd sequence are used.
+#
+# name start alnSize strand seqSize alignment
+#
+# batch 0
+a score=30 EG2=1.8e+03 E=3.3e-08
+s 1qv0_A                                                               7 36 +  653 TTTTGTTTAACTTTAAGAAGGAGATATACATATGAT
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 36 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATGAT
+
+a score=30 EG2=1.8e+03 E=3.3e-08
+s 1qv0_C                                                               7 36 +  653 TTTTGTTTAACTTTAAGAAGGAGATATACATATGAT
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 36 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATGAT
+
+a score=29 EG2=5.3e+03 E=1e-07
+s 1r5l_A                                                               7 35 +  842 TTTTGTTTAACTTTAAGAAGGAGATATACATATGA
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 35 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATGA
+
+a score=29 EG2=5.3e+03 E=1e-07
+s 1r5l_C                                                               7 35 +  842 TTTTGTTTAACTTTAAGAAGGAGATATACATATGA
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 35 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATGA
+
+a score=29 EG2=5.3e+03 E=1e-07
+s 1ukb_A                                                               7 35 +  908 TTTTGTTTAACTTTAAGAAGGAGATATACATATGA
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 35 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATGA
+
+a score=29 EG2=5.3e+03 E=1e-07
+s 1ukb_C                                                               7 35 +  908 TTTTGTTTAACTTTAAGAAGGAGATATACATATGA
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 35 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATGA
+
+a score=29 EG2=5.3e+03 E=1e-07
+s 1upv_A                                                               7 35 +  827 TTTTGTTTAACTTTAAGAAGGAGATATACATATGA
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 35 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATGA
+
+a score=29 EG2=5.3e+03 E=1e-07
+s 1upv_C                                                               7 35 +  827 TTTTGTTTAACTTTAAGAAGGAGATATACATATGA
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 35 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATGA
+
+a score=28 EG2=1.6e+04 E=3e-07
+s 1bvv_A                                                               7 34 +  623 TTTTGTTTAACTTTAAGAAGGAGATATACATATG
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 34 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATG
+
+a score=28 EG2=1.6e+04 E=3e-07
+s 1bvv_C                                                               7 34 +  623 TTTTGTTTAACTTTAAGAAGGAGATATACATATG
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 133 34 - 1012 TTTTGTTTAACTTAAGGAGGGAGATATACATATG
+
+a score=23 EG2=3.8e+06 E=7.3e-05
+s 1fcy_A                                                             748 23 +  776 ACTCGAGCACCACCACCACCACC
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 938 23 - 1012 ACTCGAGCACCACCACCACCACC
+
+a score=23 EG2=3.8e+06 E=7.3e-05
+s 1fcy_C                                                             748 23 +  776 ACTCGAGCACCACCACCACCACC
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 938 23 - 1012 ACTCGAGCACCACCACCACCACC
+
+a score=23 EG2=3.8e+06 E=7.3e-05
+s 1fcy_C_3Tyr                                                        748 23 +  776 ACTCGAGCACCACCACCACCACC
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 938 23 - 1012 ACTCGAGCACCACCACCACCACC
+
+a score=23 EG2=3.8e+06 E=7.3e-05
+s 1upv_A                                                             799 23 +  827 ACTCGAGCACCACCACCACCACC
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 938 23 - 1012 ACTCGAGCACCACCACCACCACC
+
+a score=23 EG2=3.8e+06 E=7.3e-05
+s 1upv_C                                                             799 23 +  827 ACTCGAGCACCACCACCACCACC
+s 191641_dna_seq_rep_8913440_zip/F03_U0392BE260-6_7244725_T7-Ter.seq 938 23 - 1012 ACTCGAGCACCACCACCACCACC
+
+# Query sequences=6
