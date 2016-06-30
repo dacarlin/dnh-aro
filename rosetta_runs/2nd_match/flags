@@ -1,6 +1,6 @@
--bump_tolerance 0.5 
+-bump_tolerance 0.4 
 -ignore_unrecognized_res 1
--match:geometric_constraint_file hydratase.enzdes.cst
+-match:geometric_constraint_file hydra_2nd.enzdes.cst 
 -match:lig_name LG1
 -extra_res_fa LG1.params 
 -use_input_sc 1
