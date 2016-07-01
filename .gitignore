@@ -1,8 +1,6 @@
 .ipynb_checkpoints/
-filtered.tar
-list
-log.txt
-logs/
-match/*pdb
-match/out/*pdb
-enzdes/out/*pdb
+.DS_Store
+logs/*out
+logs/*err
+out/UM*pdb
+
