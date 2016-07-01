@@ -1,28 +1,37 @@
 CST::BEGIN
+  # Tyr that is protonating double bond 
   TEMPLATE:: ATOM_MAP: 1 atom_name: C2 C1 O1 
   TEMPLATE:: ATOM_MAP: 1 residue3: LG1
   TEMPLATE:: ATOM_MAP: 2 atom_type: OH 
   TEMPLATE:: ATOM_MAP: 2 residue1: Y
-  CONSTRAINT:: distanceAB: 1.8 0.2 500 1 2 
-  CONSTRAINT:: angle_A: 97.8 15 500 360 3
-  CONSTRAINT:: angle_B: 114.8 20 500 360 3 
-  CONSTRAINT:: torsion_A: 175.4 20 500 360 3
-  CONSTRAINT:: torsion_B: -2.4 20 500 180 3
-  CONSTRAINT:: torsion_AB: 180 180 5 360 4 
+  CONSTRAINT:: distanceAB: 1.8 0.2 500 1 1
+  CONSTRAINT:: angle_A: 97.8 10 500 360 1
+  CONSTRAINT:: angle_B: 114.8 10 500 360 1 
+  CONSTRAINT:: torsion_A: 175.4 10 500 360 1
+  CONSTRAINT:: torsion_B: -2.4 10 500 180 1
+  CONSTRAINT:: torsion_AB: 180 10 500 180 1 
+
+  ALGORITHM_INFO:: match_positions
+    num_neighbors min_neighbors 7 max_neighbors 30 
+  ALGORITHM_INFO::END
 CST::END
+
 CST::BEGIN
+  # Glu or Asp that is abstracting proton from attacking water 
   TEMPLATE:: ATOM_MAP: 1 atom_name: O1 C1 C2 
   TEMPLATE:: ATOM_MAP: 1 residue3: LG1
   TEMPLATE:: ATOM_MAP: 2 atom_type: OOC 
   TEMPLATE:: ATOM_MAP: 2 residue1: ED 
-  CONSTRAINT:: distanceAB: 2.5 0.3 500 1 2
-  CONSTRAINT:: angle_A: 117.1 15 500 360 2
-  CONSTRAINT:: angle_B: 115.7 15 500 360 2 
-  CONSTRAINT:: torsion_A: 62.7 20 500 360 2
-  #CONSTRAINT:: torsion_B: 4.5 10 500 360 2
-  #CONSTRAINT:: torsion_AB: -98.6 10 500 360 2 
+  CONSTRAINT:: distanceAB: 2.5 0.3 500 1 1
+  CONSTRAINT:: angle_A: 117.1 15 500 360 1
+  CONSTRAINT:: angle_B: 115.7 15 500 360 1 
+  CONSTRAINT:: torsion_A: 62.7 20 500 360 1
 
   ALGORITHM_INFO:: match 
   SECONDARY_MATCH: DOWNSTREAM
+  ALGORITHM_INFO::END
+
+  ALGORITHM_INFO:: match_positions
+    num_neighbors min_neighbors 10 # want this buried 
   ALGORITHM_INFO::END
 CST::END

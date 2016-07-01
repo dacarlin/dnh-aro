@@ -1,4 +1,5 @@
 -bump_tolerance 0.4 
+-only_enumerate_non_match_redundant_ligand_rotamers 
 -ignore_unrecognized_res 1
 -match:geometric_constraint_file hydra_2nd.enzdes.cst 
 -match:lig_name LG1
