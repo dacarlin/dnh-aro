@@ -5,7 +5,6 @@
 #SBATCH --job-name=design 
 #SBATCH -c 1 
 #SBATCH -t 0-4:00 
-#SBATCH --mem-per-cpu 4000 
 
 S=$( head -$SLURM_ARRAY_TASK_ID list | tail -n 1 )
 

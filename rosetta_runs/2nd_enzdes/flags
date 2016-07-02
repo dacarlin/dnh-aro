@@ -1,6 +1,6 @@
 -out:path:all out
 -parser:protocol protocol
--extra_res_fa ../2nd_match/hydra_2nd.enzdes.cst
+-extra_res_fa ../2nd_match/LG1.params 
 -enzdes::cstfile ../2nd_match/hydra_2nd.enzdes.cst
 -ignore_unrecognized_res 1 
 -use_input_sc 1 
