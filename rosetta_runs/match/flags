@@ -1,4 +1,4 @@
--bump_tolerance 0.5 
+-bump_tolerance 0.4 
 -ignore_unrecognized_res 1
 -match:geometric_constraint_file hydratase.enzdes.cst
 -match:lig_name LG1
